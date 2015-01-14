@@ -14,6 +14,15 @@
 		6554A9B21A653DC100864C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9B11A653DC100864C97 /* Images.xcassets */; };
 		6554A9B51A653DC100864C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9B31A653DC100864C97 /* LaunchScreen.xib */; };
 		6554A9C11A653DC100864C97 /* SlideViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9C01A653DC100864C97 /* SlideViewControllerTests.m */; };
+		6554A9D31A653DED00864C97 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9CC1A653DED00864C97 /* SlideViewController.m */; };
+		6554A9D41A653DED00864C97 /* SlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9CD1A653DED00864C97 /* SlideViewController.xib */; };
+		6554A9D51A653DED00864C97 /* TranslucentSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9CF1A653DED00864C97 /* TranslucentSideViewController.m */; };
+		6554A9D61A653DED00864C97 /* TranslucentSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9D01A653DED00864C97 /* TranslucentSideViewController.xib */; };
+		6554A9D71A653DED00864C97 /* UIViewController+SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9D21A653DED00864C97 /* UIViewController+SlideViewController.m */; };
+		6554A9DA1A65F85B00864C97 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9D91A65F85B00864C97 /* LeftViewController.m */; };
+		6554A9DC1A65F9FE00864C97 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9DB1A65F9FE00864C97 /* LeftViewController.xib */; };
+		6554A9E01A65FA5A00864C97 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9DE1A65FA5A00864C97 /* RightViewController.m */; };
+		6554A9E11A65FA5A00864C97 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9DF1A65FA5A00864C97 /* RightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,20 @@
 		6554A9BA1A653DC100864C97 /* SlideViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6554A9BF1A653DC100864C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6554A9C01A653DC100864C97 /* SlideViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewControllerTests.m; sourceTree = "<group>"; };
+		6554A9CB1A653DED00864C97 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
+		6554A9CC1A653DED00864C97 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		6554A9CD1A653DED00864C97 /* SlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideViewController.xib; sourceTree = "<group>"; };
+		6554A9CE1A653DED00864C97 /* TranslucentSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentSideViewController.h; sourceTree = "<group>"; };
+		6554A9CF1A653DED00864C97 /* TranslucentSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentSideViewController.m; sourceTree = "<group>"; };
+		6554A9D01A653DED00864C97 /* TranslucentSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TranslucentSideViewController.xib; sourceTree = "<group>"; };
+		6554A9D11A653DED00864C97 /* UIViewController+SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SlideViewController.h"; sourceTree = "<group>"; };
+		6554A9D21A653DED00864C97 /* UIViewController+SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SlideViewController.m"; sourceTree = "<group>"; };
+		6554A9D81A65F85B00864C97 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		6554A9D91A65F85B00864C97 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		6554A9DB1A65F9FE00864C97 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		6554A9DD1A65FA5A00864C97 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		6554A9DE1A65FA5A00864C97 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		6554A9DF1A65FA5A00864C97 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +104,17 @@
 		6554A9A31A653DC100864C97 /* SlideViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6554A9CA1A653DED00864C97 /* SlideViewController */,
 				6554A9A81A653DC100864C97 /* AppDelegate.h */,
 				6554A9A91A653DC100864C97 /* AppDelegate.m */,
 				6554A9AB1A653DC100864C97 /* ViewController.h */,
 				6554A9AC1A653DC100864C97 /* ViewController.m */,
+				6554A9D81A65F85B00864C97 /* LeftViewController.h */,
+				6554A9D91A65F85B00864C97 /* LeftViewController.m */,
+				6554A9DB1A65F9FE00864C97 /* LeftViewController.xib */,
+				6554A9DD1A65FA5A00864C97 /* RightViewController.h */,
+				6554A9DE1A65FA5A00864C97 /* RightViewController.m */,
+				6554A9DF1A65FA5A00864C97 /* RightViewController.xib */,
 				6554A9AE1A653DC100864C97 /* Main.storyboard */,
 				6554A9B11A653DC100864C97 /* Images.xcassets */,
 				6554A9B31A653DC100864C97 /* LaunchScreen.xib */,
@@ -117,6 +147,21 @@
 				6554A9BF1A653DC100864C97 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6554A9CA1A653DED00864C97 /* SlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6554A9CB1A653DED00864C97 /* SlideViewController.h */,
+				6554A9CC1A653DED00864C97 /* SlideViewController.m */,
+				6554A9CD1A653DED00864C97 /* SlideViewController.xib */,
+				6554A9CE1A653DED00864C97 /* TranslucentSideViewController.h */,
+				6554A9CF1A653DED00864C97 /* TranslucentSideViewController.m */,
+				6554A9D01A653DED00864C97 /* TranslucentSideViewController.xib */,
+				6554A9D11A653DED00864C97 /* UIViewController+SlideViewController.h */,
+				6554A9D21A653DED00864C97 /* UIViewController+SlideViewController.m */,
+			);
+			path = SlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6554A9D41A653DED00864C97 /* SlideViewController.xib in Resources */,
+				6554A9E11A65FA5A00864C97 /* RightViewController.xib in Resources */,
+				6554A9DC1A65F9FE00864C97 /* LeftViewController.xib in Resources */,
+				6554A9D61A653DED00864C97 /* TranslucentSideViewController.xib in Resources */,
 				6554A9B01A653DC100864C97 /* Main.storyboard in Resources */,
 				6554A9B51A653DC100864C97 /* LaunchScreen.xib in Resources */,
 				6554A9B21A653DC100864C97 /* Images.xcassets in Resources */,
@@ -219,9 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6554A9D51A653DED00864C97 /* TranslucentSideViewController.m in Sources */,
+				6554A9D31A653DED00864C97 /* SlideViewController.m in Sources */,
 				6554A9AD1A653DC100864C97 /* ViewController.m in Sources */,
 				6554A9AA1A653DC100864C97 /* AppDelegate.m in Sources */,
+				6554A9DA1A65F85B00864C97 /* LeftViewController.m in Sources */,
+				6554A9E01A65FA5A00864C97 /* RightViewController.m in Sources */,
 				6554A9A71A653DC100864C97 /* main.m in Sources */,
+				6554A9D71A653DED00864C97 /* UIViewController+SlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +400,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,8 +413,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

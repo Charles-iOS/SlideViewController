@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SlideViewController.h"
+#import "LeftViewController.h"
+#import "RightViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +19,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UIViewController *root = [[UIViewController alloc]init];
+    root.view.backgroundColor = [UIColor greenColor];
+    LeftViewController *left = [[LeftViewController alloc]init];
+    RightViewController *right = [[RightViewController alloc]init];
+    SlideViewController *slideVC = [[SlideViewController alloc]initWithRootViewController:root];
+    slideVC.leftViewController = left;
+    slideVC.rightViewController = right;
+    self.window.rootViewController = slideVC;
+    
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
