@@ -34,6 +34,7 @@
         _rootViewController = rootViewController;
         [_rootViewController.view setFrame:CGRectMake(0,0,self.view.bounds.size.width,self.view.bounds.size.height)];
         [self.view addSubview:_rootViewController.view];
+        rootViewController.slideViewController = self;
         // Add PanGesture to Show SideViewController by PanGesture
         UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGesture:)];
         [self.view addGestureRecognizer:panGestureRecognizer];

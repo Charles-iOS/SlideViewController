@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 #import "SlideViewController.h"
 #import "LeftViewController.h"
 #import "RightViewController.h"
@@ -21,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    UIViewController *root = [[UIViewController alloc]init];
+    ViewController *root = [[ViewController alloc]init];
     root.view.backgroundColor = [UIColor greenColor];
     LeftViewController *left = [[LeftViewController alloc]init];
     RightViewController *right = [[RightViewController alloc]init];

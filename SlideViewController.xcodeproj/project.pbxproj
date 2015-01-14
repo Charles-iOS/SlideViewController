@@ -23,6 +23,8 @@
 		6554A9DC1A65F9FE00864C97 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9DB1A65F9FE00864C97 /* LeftViewController.xib */; };
 		6554A9E01A65FA5A00864C97 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A9DE1A65FA5A00864C97 /* RightViewController.m */; };
 		6554A9E11A65FA5A00864C97 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9DF1A65FA5A00864C97 /* RightViewController.xib */; };
+		6554A9E41A6601AE00864C97 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9E31A6601AE00864C97 /* ViewController.xib */; };
+		6554A9E61A66037D00864C97 /* 1024*768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6554A9E51A66037D00864C97 /* 1024*768.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		6554A9DD1A65FA5A00864C97 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		6554A9DE1A65FA5A00864C97 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		6554A9DF1A65FA5A00864C97 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		6554A9E31A6601AE00864C97 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		6554A9E51A66037D00864C97 /* 1024*768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1024*768.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				6554A9A91A653DC100864C97 /* AppDelegate.m */,
 				6554A9AB1A653DC100864C97 /* ViewController.h */,
 				6554A9AC1A653DC100864C97 /* ViewController.m */,
+				6554A9E31A6601AE00864C97 /* ViewController.xib */,
 				6554A9D81A65F85B00864C97 /* LeftViewController.h */,
 				6554A9D91A65F85B00864C97 /* LeftViewController.m */,
 				6554A9DB1A65F9FE00864C97 /* LeftViewController.xib */,
@@ -116,6 +121,7 @@
 				6554A9DE1A65FA5A00864C97 /* RightViewController.m */,
 				6554A9DF1A65FA5A00864C97 /* RightViewController.xib */,
 				6554A9AE1A653DC100864C97 /* Main.storyboard */,
+				6554A9E51A66037D00864C97 /* 1024*768.jpg */,
 				6554A9B11A653DC100864C97 /* Images.xcassets */,
 				6554A9B31A653DC100864C97 /* LaunchScreen.xib */,
 				6554A9A41A653DC100864C97 /* Supporting Files */,
@@ -246,6 +252,8 @@
 			files = (
 				6554A9D41A653DED00864C97 /* SlideViewController.xib in Resources */,
 				6554A9E11A65FA5A00864C97 /* RightViewController.xib in Resources */,
+				6554A9E41A6601AE00864C97 /* ViewController.xib in Resources */,
+				6554A9E61A66037D00864C97 /* 1024*768.jpg in Resources */,
 				6554A9DC1A65F9FE00864C97 /* LeftViewController.xib in Resources */,
 				6554A9D61A653DED00864C97 /* TranslucentSideViewController.xib in Resources */,
 				6554A9B01A653DC100864C97 /* Main.storyboard in Resources */,

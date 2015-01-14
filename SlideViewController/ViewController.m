@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIViewController+SlideViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)showLeft:(id)sender {
+    [self.slideViewController.leftSideViewController show];
+}
+- (IBAction)showRight:(id)sender {
+    [self.slideViewController.rightSideViewController show];
 }
 
 - (void)didReceiveMemoryWarning {

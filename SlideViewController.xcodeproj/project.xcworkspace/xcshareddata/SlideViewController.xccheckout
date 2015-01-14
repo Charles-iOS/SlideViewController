@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50D87881-6D07-48DC-923A-BC13678D2AEA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlideViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC718BAB30997F6E1368A0612BEDEFEAA6C2E5BC</key>
+		<string>https://github.com/Charles-iOS/SlideViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlideViewController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC718BAB30997F6E1368A0612BEDEFEAA6C2E5BC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Charles-iOS/SlideViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC718BAB30997F6E1368A0612BEDEFEAA6C2E5BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC718BAB30997F6E1368A0612BEDEFEAA6C2E5BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlideViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
